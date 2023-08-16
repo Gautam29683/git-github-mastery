@@ -34,7 +34,9 @@ $ git restore --staged FILENAME (restore all changes from staging area)
 $ git branch (list all tghe branches)
 $ git branch <NEW_BRANCH_NAME> (Create a new branch)
 $ git checkout <BRANCH_YOU_WANT_TO_USE> (to change to the branch)
-
+$ git merge <UPDATED_BRANCH> (first checkout to main then merge with main)
+$ git branch -d <FEATURE> (delete the new branch locally once you done with that)
+$ git push origin --delete feature (delete the feature branch remotely on GitHub)
 
 
 
