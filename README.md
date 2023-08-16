@@ -38,6 +38,10 @@ $ git merge <UPDATED_BRANCH> (first checkout to main then merge with main)
 $ git branch -d <FEATURE> (delete the new branch locally once you done with that)
 $ git push origin --delete feature (delete the feature branch remotely on GitHub)
 
+## Git Pull - Pull all the changes from the remote repository ##
+$ git push origin main (to pull the changes from remote repository)
+$ git config pull.ff false (in case you get any error while pulling the changes) https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci
+
 
 
 
