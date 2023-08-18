@@ -1,6 +1,6 @@
 # GitHub learning
 
-###### Setup Git and GitHub Global Configuration ###### 
+###### **Setup Git and GitHub Global Configuration** ###### 
 ```
 git config --global user.email "gautamthakur1983@gmail.com"
 ```
