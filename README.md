@@ -46,5 +46,34 @@ $ git config pull.ff false (in case you get any error while pulling the changes)
 ## Git Merge Conflict ##
 
 
+## Express commit - Only work if file is already staged once. It will not work for new file inside working area ##
+$ git commit -a -m "COMMIT MESSAGE" or $ git commit -am "COMMIT MESSAGE"
 
+## Create new branch and checkout at the same time ##
+$ git checkout -b <NEW_BRANCH_NAME>
 
+## Check all latest commit in all the branches ##
+$ git branch -v
+
+## Information about all the remote branches ##
+$ git branch -r
+
+## Check all the connected Remote Repository ##
+$ git remote -v
+
+## To check all the Merged and not Merged branches ##
+$ git branch --merged
+$ git branch --no-merged
+
+## Delete the branch which is not merged with main ##
+$ git branch -D filter (branch name)
+
+## Git Rebase ## Rebase and Merge are use to integrate changes.
+$ git rebase feature (Merge all the changes from feature to main, them rebase main to feature) 
+$ git rebase main
+
+## Git Rebase vs Git Merge ##
+Merge - Git merge keep history of everything. Have idea about conflicts
+Rebase - Order of change not preserve in git rebase. No idea about merge conflict. After Rebase all the changes always added at the top. In spite of other commits in between. After Rebase, history on commit will be same with other branch.
+
+## Gitignore ##
