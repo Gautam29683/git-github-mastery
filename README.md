@@ -114,7 +114,7 @@ In Case of Merge Error While Pulling: [Click Here](https://stackoverflow.com/que
 **Git Merge Conflict** 
 
 
-** Express commit - Only work if file is already staged once. It will not work for new file inside working area **
+**Express commit - Only work if file is already staged once. It will not work for new file inside working area**
 ```
 git commit -a -m "COMMIT MESSAGE"
 ```
@@ -157,12 +157,13 @@ git branch -D filter (branch name)
 ```
 
 **Git Rebase | Rebase and Merge are use to integrate changes.** 
+
 >Merge all the changes from feature to main, them rebase main to feature
 ```
 git rebase feature 
 ```
 ```
-$ git rebase main
+git rebase main
 ```
 
 **Git Rebase vs Git Merge** 
