@@ -58,7 +58,7 @@ $ git push origin --delete feature (delete the feature branch remotely on GitHub
 $ git push origin main (to pull the changes from remote repository)
 $ git config pull.ff false
 ``` 
-> (in case you get any error while pulling the changes) https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci
+[in case you get any error while pulling the changes] (https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci)
 
 ## Git Merge Conflict ##
 
@@ -107,6 +107,7 @@ $ git rebase main
 
 ## Git Rebase vs Git Merge ##
 **Merge - Git merge keep history of everything. Have idea about conflicts**
+
 **Rebase - Order of change not preserve in git rebase. No idea about merge conflict. After Rebase all the changes always added at the top. In spite of other commits in between. After Rebase, history on commit will be same with other branch.**
 
 ## Gitignore ##
