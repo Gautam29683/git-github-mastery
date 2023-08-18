@@ -5,7 +5,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#git-global-configuration">Setup Git and GitHub Global Configuration</a>
+      <a href="#setup-git-and-githiub-global-configuration">Setup Git and GitHub Global Configuration</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
