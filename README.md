@@ -188,4 +188,7 @@ Rebase - Order of change not preserve in git rebase. No idea about merge conflic
 git rebase -i HEAD~9
 ```
 
-
+## Git Revert - To Revert changes of any commit, all the change of that commit will be removed
+```
+git revert 1513040
+```
