@@ -175,4 +175,17 @@ Merge - Git merge keep history of everything. Have idea about conflicts**
 Rebase - Order of change not preserve in git rebase. No idea about merge conflict. After Rebase all the changes always added at the top. In spite of other commits in between. After Rebase, history on commit will be same with other branch.**
 ```
 
-**Gitignore** 
+
+## Gitignore
+>Gitignore file is to ignore files from the current code which you did not want git to track. Like environment variable, password, any critical data and unwanted files and folders.
+```
+.env
+/directory
+```
+
+## Git Squash - Merge multiple commit into one single commit
+```
+git rebase -i HEAD~9
+```
+
+
