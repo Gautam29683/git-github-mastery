@@ -176,3 +176,8 @@ Note:
 ```
 
 ## Gitignore
+>Gitignore file is to ignore files from the current code which you did not want git to track. Like environment variable, password, any critical data and unwanted files and folders.
+```
+.env
+/directory
+```
