@@ -167,11 +167,12 @@ git rebase main
 ```
 
 **Git Rebase vs Git Merge** 
+```
 `#ffffff`
 Note:
 Merge - Git merge keep history of everything. Have idea about conflicts**
 
 Rebase - Order of change not preserve in git rebase. No idea about merge conflict. After Rebase all the changes always added at the top. In spite of other commits in between. After Rebase, history on commit will be same with other branch.**
-`#000000`
+```
 
 **Gitignore** 
