@@ -174,10 +174,7 @@ git rebase main
 - Rebase - Order of change not preserve in git rebase. No idea about merge conflict. After Rebase all the changes always added at the top. In spite of other commits in between. After Rebase, history on commit will be same with other branch.##
 ```
 
-<<<<<<< HEAD
 
-=======
->>>>>>> f645dc5eaf84bfc83ca8f45f882148a5c4d684e7
 ## Gitignore
 >Gitignore file is to ignore files from the current code which you did not want git to track. Like environment variable, password, any critical data and unwanted files and folders.
 ```
