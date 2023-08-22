@@ -201,3 +201,5 @@ git reset --soft HEAD~
 ```
 git reset
 ```
+> By default when you didn't specify any flag it's a mixed reset. It move your changes from staging area to working area without changing any data
+
