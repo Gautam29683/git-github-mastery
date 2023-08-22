@@ -191,4 +191,4 @@ git rebase -i HEAD~9
 ```
 git revert 1513040
 ```
-## Git Squash - Merge multiple commit into one single commit
+
