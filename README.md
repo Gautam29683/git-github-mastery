@@ -203,3 +203,7 @@ git reset
 ```
 > By default when you didn't specify any flag it's a mixed reset. It move your changes from staging area to working area without changing any data
 
+```
+git reset --hard HEAD~
+```
+> Hard reset will remove commit as well as your data
