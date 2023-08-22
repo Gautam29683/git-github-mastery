@@ -192,3 +192,12 @@ git rebase -i HEAD~9
 git revert 1513040
 ```
 
+## Git Reset - Soft, Mixed and Hard
+```
+git reset --soft HEAD~
+```
+> Soft Reset will remove your Git commit and add your latest chnage to the staging area with loosing any data.
+
+```
+git reset
+```
