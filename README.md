@@ -209,6 +209,12 @@ git reset --hard HEAD~
 > Hard reset will remove commit as well as your data
 
 ## Git Tag - Better for history
+
+> for create a git tag
 ```
 git tag v0.1
+```
+> push tag to remote repository
+```
+git push origin v0.1
 ```
