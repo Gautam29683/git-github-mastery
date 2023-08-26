@@ -218,3 +218,25 @@ git tag v0.1
 ```
 git push origin v0.1
 ```
+> git tag list will show all the tags
+```
+git tag list
+```
+
+** We can RELEASE with tag what all the changes has been done as compare to previous tag**
+
+
+> git tag with name and commit message
+```
+git tag -a [tag_name] [commit_SHA] -m "commit message"
+```
+
+> Jump to previous tag or any tag (for testing)
+```
+git checkout v0.1
+```
+
+> Jump to previous any commit (for testing)
+```
+git checkout [commit_SHA]
+```
