@@ -220,7 +220,7 @@ git push origin v0.1
 ```
 > git tag list will show all the tags
 ```
-git tags list
+git tags list | git tag --list
 ```
 
 > We can RELEASE with tag what all the changes has been done as compare to previous tag 
@@ -235,10 +235,26 @@ git tag -a [tag_name] [commit_SHA] -m "commit message"
 ```
 git checkout v0.1
 ```
+Note: Do it new brach if you checkout previous tag or commit and your start commit from that commit then it will create a new timeline and thungs will messay for you so back to the latest commit in the branch run the command
+
+```
+git checkout main
+```
 
 > Jump to previous any commit (for testing)
 ```
 git checkout [commit_SHA]
 ```
 
-Uodate
+> delete a git tag
+```
+git tag -d [tag_name]
+```
+
+> Delete tag from GitHub remote repository
+```
+git push origin --delete [tag_name]
+```
+
+
+
