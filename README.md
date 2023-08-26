@@ -220,10 +220,10 @@ git push origin v0.1
 ```
 > git tag list will show all the tags
 ```
-git tag list
+git tags list
 ```
 
-** We can RELEASE with tag what all the changes has been done as compare to previous tag**
+> We can RELEASE with tag what all the changes has been done as compare to previous tag 
 
 
 > git tag with name and commit message
